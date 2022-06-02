@@ -18,9 +18,9 @@ services:
     container_name: "eadapi-api"
     ports:
       - "3005:3000"
-    working_dir: "/home/piero/developer_01/codes/ead-api"
+    working_dir: "/ecommerce_nodeJS"
     volumes:
-      - ./:/home/piero/developer_01/codes/ead-api
+      - ./:/ecommerce_nodeJS
     command: "npm start"
     networks:
       - backend
